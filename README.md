@@ -32,10 +32,11 @@ Vagrant is used to provide a common deployment platform. It is also possible to 
 * Configure AWS 
 %userprofile%/.aws/credentials
 
+```bash
 [default]
 aws_access_key_id = <PASTE KEY ID>
 aws_secret_access_key = <PASTE SECRET ACCESS KEY>
-
+```
 #Preresquisites
 
 make sure aws cli installed
