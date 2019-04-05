@@ -18,9 +18,6 @@
 
 Vagrant is used to provide a common deployment platform. It is also possible to use `Windows Sub-system for Linux` or another container/virtualization technology. The Vagrantfile provided in this repository leverages the vagrant-aws provider, this will create a vagrant ec2 instance in AWS. The vagrant image will provides all of the deployment tools necessary to create a packer ami and deploy the cloud environment using terraform, in addition to the most up-to-date awscli to troubleshoot or administer AWS via cli if needed.
 
-* [How to use this Vagrantfile](https://bitbucket.org/cenovus/vagrantfile-templates/src/master/README.md)
-  * See the Vagrant-AWS Provider section
-
 ## Set AWS Credentials
 
 * Preferred: IAM Role or AWS Temporary Credentials, below is an example of setting environment variables with AWS Temporary Credentials
