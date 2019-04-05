@@ -29,15 +29,16 @@ Vagrant is used to provide a common deployment platform. It is also possible to 
         export AWS_SECRET_ACCESS_KEY="######################"
         export AWS_SESSION_TOKEN="######################"
 
-* Configure AWS 
-%userprofile%/.aws/credentials
+* Configure AWS credentials
+    
+        %userprofile%/.aws/credentials
 
 ```bash
 [default]
 aws_access_key_id = <PASTE KEY ID>
 aws_secret_access_key = <PASTE SECRET ACCESS KEY>
 ```
-#Preresquisites
+## Preresquisites
 
 make sure aws cli installed
 
