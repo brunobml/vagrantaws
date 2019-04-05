@@ -30,8 +30,10 @@ Vagrant is used to provide a common deployment platform. It is also possible to 
         export AWS_SESSION_TOKEN="######################"
 
 * Configure AWS credentials
-    
+       
+        If there are no credentials declared on the Vagrantfile, the credentials will use the default location on the :
         %userprofile%/.aws/credentials
+
 
 ```bash
 [default]
