@@ -45,6 +45,8 @@ Install the following vagrant plugins
 
 ```bash
  vagrant plugin install --plugin-version 1.0.1 fog-ovirt
+ or
+ vagrant plugin install --plugin-version 1.0.1 fog-ovirt --plugin-source http://rubygems.org
  vagrant plugin install vagrant-aws
  vagrant box add aws-dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
  vagrant up
